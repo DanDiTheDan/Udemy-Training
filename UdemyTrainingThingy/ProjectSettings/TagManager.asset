@@ -7,6 +7,10 @@ TagManager:
   - WallDetect
   - Enemy
   - Ground
+  - Reward
+  - Wall
+  - EnemyWall
+  - NoRewardGround
   layers:
   - Default
   - TransparentFX
@@ -41,6 +45,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3054880833
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -49,4 +56,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 4261756533
+    locked: 0
+  - name: Explosions
+    uniqueID: 3144230781
     locked: 0
