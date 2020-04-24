@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &882889347873367136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3327852919162022337, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: debugEnemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3327852919162022337, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: zigzagEnemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3327852919162022337, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: Reward
+      value: 
+      objectReference: {fileID: 8593817401489331951, guid: dfebb20feb33cb1479b55f31ef3b338e,
+        type: 3}
+    - target: {fileID: 3327852919162022337, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: Explosion
+      value: 
+      objectReference: {fileID: 5080630539185895130, guid: 710b070d3ada1c147b44299833fc0090,
+        type: 3}
+    - target: {fileID: 6451829207262531095, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172745, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172788, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_Name
+      value: HealEnemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172790, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.28109956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172790, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763293471357172790, guid: a50ee71723025e245a39d74be1ccdcd5,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a50ee71723025e245a39d74be1ccdcd5, type: 3}

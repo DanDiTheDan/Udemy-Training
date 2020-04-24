@@ -95,6 +95,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Heal(int amount)
+    {
+        health += amount;
+        healthDisplay.text = health.ToString();
+    }
+
     IEnumerator Die()
     {
         int randomNumber = Random.Range(0, 10);

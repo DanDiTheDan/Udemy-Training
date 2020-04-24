@@ -15,6 +15,8 @@ public class RewardBlock : MonoBehaviour
     PlayerController playerController;
     public GameObject player;
 
+    public bool healItem;
+
     void Start()
     {
         if (player != null)
@@ -53,8 +55,16 @@ public class RewardBlock : MonoBehaviour
             if (player != null && playerController != null)
             {
                 Instantiate(particles, transform.position, Quaternion.identity);
-                Debug.Log("Picked up " + lootAmount);
-                playerController.IncreaseScore(lootAmount);
+                if (healItem == true)
+                {
+                    Debug.Log("Healed Player +1");
+                    playerController.Heal(1);
+                }
+                else
+                {
+                    Debug.Log("Picked up " + lootAmount);
+                    playerController.IncreaseScore(lootAmount);
+                }
                 Destroy(gameObject);
             }
         }
